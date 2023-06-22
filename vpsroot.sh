@@ -8,12 +8,16 @@ read -e pwe;
 usermod -p `perl -e "print crypt("$pwe","Q4")"` root;
 clear;
 printf "Mohon Simpan Informasi Akun VPS Ini
-============================{lolcat}
-Ip address = $(curl -Ls http://ipinfo.io/ip)
-Username   = root
-Password   = $pwe
-Login      = root@${pwe}
-By : FREE TUNNELING PROJECT
-============================;
+============================ | lolcat
+Ip address = $(curl -Ls http://ipinfo.io/ip) | lolcat
+Username   = root | lolcat
+Password   = $pwe | lolcat
+Login      = root@${pwe} | lolcat
+VPS AKAN REBOOT DALAM 10 DETIK
+By : FREE TUNNELING PROJECT | lolcat
+============================; | lolcat
 echo "";
-exit;
+sleep 5
+echo "SIMPAN USER & PASSWORD BAIK BAIK"
+sleep 5
+reboot
