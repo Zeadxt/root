@@ -18,6 +18,6 @@ By : FREE TUNNELING PROJECT | lolcat
 ============================; | lolcat
 echo "";
 sleep 5
-echo "SIMPAN USER & PASSWORD BAIK BAIK"
+echo "SIMPAN USER & PASSWORD BAIK BAIK";
 sleep 5
 reboot
