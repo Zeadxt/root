@@ -1,6 +1,6 @@
 #!/bin/bash
 # Mod By HT Cloud
-wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/myridwan/dragon/ipuk/sshd_config;
+wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/Zeadxt/root/main/sshd_config;
 systemctl restart sshd;
 clear;
 echo -e "Masukkan Password:";
@@ -23,8 +23,9 @@ Username   = root
 Password   = $pwe
 ============================================
 User Akun Baru Dengan Akses Root (Akun Baru)
-Username   = $crot
-Password   = $Pass
+Username    = $crot
+Password    = $Pass
+Login Juice = root@${Pass}
 ============================================";
 echo "";
 exit;
